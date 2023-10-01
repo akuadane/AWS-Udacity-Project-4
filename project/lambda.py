@@ -43,7 +43,7 @@ import boto3
 
 
 # Fill this in with the name of your deployed model
-ENDPOINT = "image-classification-2023-09-30-06-27-07-837" ## TODO: fill in
+ENDPOINT = "image-classification-2023-10-01-06-03-53-045" ## TODO: fill in
 runtime = boto3.Session().client('sagemaker-runtime')
 
 def lambda_handler(event, context):
